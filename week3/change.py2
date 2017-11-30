@@ -1,0 +1,22 @@
+
+
+
+def change(target):
+    
+    coins =[10,5,1]
+
+    while target > 0:
+        cnt = 0
+        if cnt == len(coins):
+            target - coins[cnt]
+            print(target)
+            cnt = 0
+
+        cnt += 1
+change(2)
+#print(change(2))
+
+     
+
+
+
